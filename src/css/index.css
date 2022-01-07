@@ -1,3 +1,20 @@
+body {
+	--color-text: #4a525e;
+	--color-bg: #121a27;
+	--color-link: #b2366f;
+	--color-link-hover: #fff;
+	--color-gallery-title: #4a525e;
+	--color-gallery-number: #54d7e4;
+	--color-gallery-link: #fff;
+	--color-gallery-link-bg: #e95499;
+	--color-gallery-link-hover: #e95499;
+	--color-gallery-link-bg-hover: #fff;
+	--color-gallery-text: #e95499;
+	--cursor-stroke: none;
+	--cursor-fill: #79e2e6;
+	--cursor-stroke-width: 1px;
+}
+
 .gallery {
 	display: flex;
 	margin-left: 12vw;
@@ -10,12 +27,8 @@
 	grid-template-areas: '... ...' 
 						 '... gallery-image'
 						 '... ...' ;
-	grid-template-columns: 8rem 21vmax;
+	grid-template-columns: 8rem 28vmax;
 	grid-template-rows: 8rem 28vmax 3rem;
-}
-
-.gallery__item:nth-child(even) {
-	padding-top: 10vh;
 }
 
 .gallery__item-img {
@@ -110,14 +123,47 @@
 	line-height: 0.8;
 	margin: 0 10vw 0 14vw;
 	text-transform: lowercase;
-	color: var(--color-gallery-title);
 	color: transparent;
-	-webkit-text-stroke: 1px #978c77;
-	text-stroke: 1px #978c77;
+	-webkit-text-stroke: 1px var(--color-gallery-text);
+	text-stroke: 1px var(--color-gallery-text);
 	-webkit-text-fill-color: transparent;
 	text-fill-color: transparent;
 }
 
 .gallery__text-inner {
 	display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Warnes&display=swap');
+
+:root {
+    background-color: #141414;
+}
+.title {
+	font-family: moret, serif;
+	align-self: center;
+    font-size: 64px;
+    color: #fff;
+    position: absolute;
+    position: fixed;
+    bottom: 55%;
+    left: 45%;
+}
+.vertical{
+	transform: rotate(-90deg);
+
+}
+
+.glow {
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #e60073, 0 0 30px #e60073;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 15px #ff4da6, 0 0 25px #ff4da6, 0 0 35px #ff4da6;
+  }
 }

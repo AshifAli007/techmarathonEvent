@@ -184,10 +184,11 @@ body {
     left: 50%;
     transform: translateX(-50%);
 	overflow: scroll;
+	transition: all 0.5s;
 }
 .close{
 	cursor: pointer;
-    position: absolute;
+    position: fixed;
     right: 3%;
     top: 3%;
 }

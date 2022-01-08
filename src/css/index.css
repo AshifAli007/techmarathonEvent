@@ -167,3 +167,27 @@ body {
     text-shadow: 0 0 5px #fff, 0 0 15px #ff4da6, 0 0 25px #ff4da6, 0 0 35px #ff4da6;
   }
 }
+
+
+.details{
+	font-size: 25px;
+    display: flex;
+    align-items: center;
+	flex-flow: column;
+    position: fixed;
+    bottom: 0;
+    height: 75vh;
+    width: 90vw;
+    background-color: pink;
+    z-index: 5;
+    border-radius: 5% 5% 0 0;
+    left: 50%;
+    transform: translateX(-50%);
+	overflow: scroll;
+}
+.close{
+	cursor: pointer;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}

@@ -36,6 +36,7 @@ Prize will be distributed to best two participants.
     <li>Name : Contact</li>
     <li>Name : Contact</li>
 </ul>
+<button class="register-btn" onclick="location.href='https://forms.gle/cLJRF4wbKrrAdoGt6';">Register Here</button>
 `
 
 const techwars = `
@@ -86,6 +87,7 @@ const techwars = `
 </ul>
 
 <h5>Participants will be briefed on the rules in detail during the event</h5>
+<button class="register-btn" onclick="location.href='https://forms.gle/bgo35etfKzfPHAcs6';">Register Here</button>
 `
 
 const algoowls = `
@@ -131,6 +133,7 @@ const algoowls = `
     <li>Name : Contact</li>
     <li>Name : Contact</li>
 </ul>
+<button class="register-btn" onclick="location.href='https://forms.gle/7Cre2dWFD4neC9GP6';">Register Here</button>
 `
 
 const techescapade = `
@@ -162,6 +165,7 @@ const techescapade = `
     <li>Name : Contact</li>
     <li>Name : Contact</li>
 </ul>
+<button class="register-btn" onclick="location.href='https://forms.gle/Xd5DF8g9XdBYvQVs9';">Register Here</button>
 `
 
 const codebenders = `
@@ -190,6 +194,7 @@ const codebenders = `
     <li>Name : Contact</li>
     <li>Name : Contact</li>
 </ul>
+<button class="register-btn" onclick="location.href='https://forms.gle/DKK5K2yk7qTDPg118';">Register Here</button>
 `
 
 const events = {

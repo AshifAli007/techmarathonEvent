@@ -28,12 +28,14 @@ const webgators = `
 </ul>
 `
 
+
 const techwars = `
     
 `
 
 const events = {
     "webgators": webgators,
+    
 }
 
 

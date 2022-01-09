@@ -1,3 +1,8 @@
+window.onload = function () {
+    console.log($('.details'))
+    $('.details').css("height", "0");
+}
+
 $('.close').on("click", function(){
     console.log($('.details'))
     $('.details').css("height", "0");

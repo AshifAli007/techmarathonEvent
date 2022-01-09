@@ -204,6 +204,7 @@ body {
 }
 h1{
 	text-shadow: 0 0 10px #ffd900;
+
 }
 .close{
 	cursor: pointer;
@@ -215,8 +216,25 @@ h1{
 ::-webkit-scrollbar {
 	width: 0px;
 }
-.register{
-	display:block;
+
+.register {
+  -webkit-border-radius: 33;
+  -moz-border-radius: 33;
+  border-radius: 33px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  color:white;
+  font-size: 23px;
+  padding: 8px 11px 6px 17px;
+  text-decoration: none;
+  background-color: #FF6A88;
+  	font-family: moret, serif;
+}
+
+.register:hover {
+  background: #535353;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=/css.967bad95.css.map */

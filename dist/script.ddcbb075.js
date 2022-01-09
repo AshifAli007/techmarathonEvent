@@ -124,11 +124,19 @@ $('.close').on("click", function () {
 });
 var webgators = "\n<h1 class=\"eventName\">Webgators</h1>\n<br/>\n<p>Website design - as easy as it may seem, as creative as you want,\n    An appealing design can turn the business game upside down.\n    <br/>\n    Using your knowledge of languages and ingenuity , answer simple questions and work on a given situation.\n    <br/>\n    Presenting to you all WebGators- Competition of designing using languages that open the gate of web.</p>\n<h2>Rules</h2>\n<br/>\n<ul>\n    <li>Information will be given about website looks i.e. guidelines but NOT images.</li>\n    <li>Information will be given about website looks i.e. guidelines but NOT images.</li>\n    <li>Information will be given about website looks i.e. guidelines but NOT images.</li>\n    <li>Information will be given about website looks i.e. guidelines but NOT images.</li>\n    <li>Information will be given about website looks i.e. guidelines but NOT images.</li>\n</ul>\n\n<h2>Contact event head for more details</h2>\n<ul>\n    <li>Name : Contact</li>\n    <li>Name : Contact</li>\n</ul>\n";
 var techwars = "\n    \n";
+var bumblejumble = "<h1 class=\"eventName\">Bumble Jumble</h1>\n<br/>\n    <h2>Programming language - C++</h2>\n    <p>This event will consist of 2 rounds.</p>\n    <h3>Round 1:</h3>\n    <h4>Time limit: 30 min</h4>\n    <p>\n        <ul>\n        <li>The first round will consist of 40-50 questions comprising snippets of code in the\njumbled form, Small functions with fill-ups, MCQ, etc.</li>\n        <li>Participants are required to answer the questions in specified formats.</li>\n        <li>The top 3 teams solving the maximum\nnumber of correct questions in the stipulated time will qualify for the next round.</li></ul>\n    </p>\n    <h3>Round 2:</h3>\n    <h4>Time limit: 60 min</h4>\n    <p>\n        <ul style=\"list-style-type: none; \">\n        <li>The second round will consist of two questions as follows</li>\n        <li>Question 1: Code having error/ Incorrect code (Time \u2013 15 min)</li>\n        <li>Question 2: Code with jumbled or missing lines/ having errors. ( Time \u2013 20 min )</li></ul>\n    </p>\n    <h3>The teams will be judged on the basis of accuracy and the amount of time\ntaken.</h3>\n<button class=\"register\"><a href=\"https://forms.gle/AvMHUby9a8QQ9GHs5\">Registration</a></button>\n\n<h2>Contact event head for more details</h2>\n<ul>\n    <li>Name : Contact</li>\n    <li>Name : Contact</li>\n</ul>";
 var events = {
-  "webgators": webgators
+  "webgators": webgators,
+  "bumblejumble": bumblejumble //  "bamboozled" : bamboozled,
+  // "pubg" : pubg,
+  // "football" :football,
+  // "valorant" :valorant
+
 };
 $('.gallery__item-link').on("click", function (e) {
-  var event = $(e.target).attr('name');
+  // alert("charu");
+  var event = $(e.target).attr('name'); // console.log(event);
+
   $('.rules').html(events[event]);
   $('.details').css("height", "75vh");
 });
@@ -160,7 +168,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50757" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59399" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -215,5 +215,8 @@ h1{
 ::-webkit-scrollbar {
 	width: 0px;
 }
+.register{
+	display:block;
+}
 
 /*# sourceMappingURL=/css.967bad95.css.map */

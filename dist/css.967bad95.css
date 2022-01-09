@@ -178,19 +178,42 @@ body {
     bottom: 0;
     height: 75vh;
     width: 90vw;
-    background-color: pink;
     z-index: 5;
     border-radius: 5% 5% 0 0;
     left: 50%;
     transform: translateX(-50%);
 	overflow: scroll;
+	box-shadow: 0px -8px 15px pink;
+	background-color: #FF9A8B;
+	background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+	padding: 0 3%;
+	color: white;
 	transition: all 0.5s;
+	text-shadow: 0 0 2px #ffd900;
+	font-family: moret, serif;
+}
+.rules{
+	font-size: 25px;
+    display: flex;
+    align-items: center;
+	flex-flow: column;
+	color: white;
+	transition: all 0.5s;
+	text-shadow: 0 0 2px #ffd900;
+	font-family: moret, serif;
+}
+h1{
+	text-shadow: 0 0 10px #ffd900;
 }
 .close{
 	cursor: pointer;
     position: fixed;
     right: 3%;
     top: 3%;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
 }
 
 /*# sourceMappingURL=/css.967bad95.css.map */

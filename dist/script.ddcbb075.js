@@ -119,12 +119,17 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"js/demo4/script.js":[function(require,module,exports) {
 $('.close').on("click", function () {
+  console.log($('.details'));
   $('.details').css("height", "0");
 });
+var webgators = "\n<h1 class=\"eventName\">Webgators</h1>\n<br/>\n<p>Website design - as easy as it may seem, as creative as you want,\n    An appealing design can turn the business game upside down.\n    <br/>\n    Using your knowledge of languages and ingenuity , answer simple questions and work on a given situation.\n    <br/>\n    Presenting to you all WebGators- Competition of designing using languages that open the gate of web.</p>\n<h2>Rules</h2>\n<br/>\n<ul>\n    <li>Information will be given about website looks i.e. guidelines but NOT images.</li>\n    <li>Information will be given about website looks i.e. guidelines but NOT images.</li>\n    <li>Information will be given about website looks i.e. guidelines but NOT images.</li>\n    <li>Information will be given about website looks i.e. guidelines but NOT images.</li>\n    <li>Information will be given about website looks i.e. guidelines but NOT images.</li>\n</ul>\n\n<h2>Contact event head for more details</h2>\n<ul>\n    <li>Name : Contact</li>\n    <li>Name : Contact</li>\n</ul>\n";
+var techwars = "\n    \n";
+var events = {
+  "webgators": webgators
+};
 $('.gallery__item-link').on("click", function (e) {
   var event = $(e.target).attr('name');
-  $('.eventName').text(event);
-  console.log(event);
+  $('.rules').html(events[event]);
   $('.details').css("height", "75vh");
 });
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -155,7 +160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53375" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50757" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

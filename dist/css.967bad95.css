@@ -219,4 +219,24 @@ h1{
 	display:block;
 }
 
+.register-btn {
+	background: #4a525e;
+	color: white;
+	border-radius: 10em;
+	font-size: larger;
+	font-family: moret, serif;
+	padding: 20px;
+	border: none;
+	position: absolute;
+	bottom: -83vh;
+	right: 3em;
+}
+
+.register-btn:hover {
+	background: #54d7e4;
+	color: #141414;
+	text-decoration: none;
+}
+
+
 /*# sourceMappingURL=/css.967bad95.css.map */

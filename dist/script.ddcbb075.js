@@ -118,9 +118,23 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/demo4/script.js":[function(require,module,exports) {
+window.onload = function () {
+  console.log($('.details'));
+  $('.details').css("height", "0");
+};
+
 $('.close').on("click", function () {
   console.log($('.details'));
   $('.details').css("height", "0");
+});
+document.addEventListener("click", function (e) {
+  var detailsdiv = document.querySelector(".details").getBoundingClientRect();
+  var check = document.querySelector('.details');
+
+  if (!check.contains(e.target) && detailsdiv.height != 0) {
+    console.log($('.details'));
+    $('.details').css("height", "0");
+  }
 });
 var webgators = "\n<h1 class=\"eventName\">Webgators</h1>\n<br/>\n<p>\n    <h2>About the Event:</h2>\n    Participants will have to use their knowledge and web development skills to solve the problems provided \n    <br/>\n    in the event within the given period of time. The event will have 2 rounds. \n    \n    <h2>About the rounds:</h2>\n    <h3>First round</h3> will be an elimination round. It will consist of 30 MCQ\u2019s based questions. All the questions will\n    <br/>\n    be related to web development. The time limit will be 30 minutes. There can be more than 1 correct answers. \n    <br/>\n    There will be no negative marking. Top 40% to score the most will proceed to second round.\n    <br/>\n    <h3>Second round</h3> will be the final round. Time limit will be 120 minutes. Participants will be \n    <br/>\n    provided a theme and they will have to make a website based on that theme. \n</p>\n<h2>Rules</h2>\n<ul>\n    <li>Individual or a team consisting of 2 members</li>\n    <li>The participants are allowed to use following web languages: HTML, CSS, PHP, JAVASCRIPT, JQUERY and NodeJS.</li> \n    <li>Software that can be used: MYSQL, APACHE with PHP, Express with NodeJS</li>\n</ul>\n<h2>Prize Distribution:</h2>\nPrize will be distributed to best two participants. \n\n<h2>Contact event head for more details</h2>\n<ul>\n    <li>Name : Contact</li>\n    <li>Name : Contact</li>\n</ul>\n<button class=\"register-btn\" onclick=\"location.href='https://forms.gle/cLJRF4wbKrrAdoGt6';\">Register Here</button>\n";
 var techwars = "\n<h1 class=\"eventName\">TechWars</h1>\n<br/>\n<p>\n    <h2>About</h2>\n    Players have to use their knowledge regarding technical and aptitude solving skills to be on top of the list\n    <br/>\n    among other players. There will be 3 rounds of the game: Preliminaries, Mains and Finals.\n    <h3>Round 1 (Preliminaries)</h3>\n    It will be an elimination round in which all the players will participate. There will be 40 objective type \n    <br/>\n    questions assessing their technical and aptitude ability. The total time allocated for this round will be 10 minutes.\n    <br/>\n    Each question will be of 2 points. 0.5 points will be deducted for incorrect answers. Tiebreakers in Round 1 will \n    <br/>\n    be based on the time of submission. The top 8 teams from this round will proceed to Round 2.\n    <h3>Round 2 (Mains)</h3>\n    This round is completely based on visualization. There will be 30 Questions related to logos, tag lines etc. \n    <br/>\n    The time allocated will be 15 minutes. 3 points will be awarded for correct answers and 1 point will be deducted\n    <br/>\n    for incorrect ones. In case of a tie in Round 2, a tie-breaker rapid-fire round will be held.\n    <br/>\n    4 teams having maximum points will proceed to the third round i.e. Finals (Company Gleam).\n    <h3>Round 3 (Finals)</h3>\n    Each Team will be given one company and they will be allotted 5 minutes to study about the given company. \n    <br/>\n    Any source including the internet can be used. After the given time, five questions will be asked on each company \n    <br/>\n    and each team will be given 30 seconds to answer the questions given to them. Each question carries 3 points. \n    <br/>\n    There will be no negative marking The winners will be chosen based on the highest points.\n</p>\n<h2>Rules</h2>\n<br/>\n<ul>\n    <li>No. of team members should not exceed 2</li>\n    <li>Individual participation is allowed</li>\n    <li>No external help is admissible</li>\n</ul>\n\n<h2>Contact event head for more details</h2>\n<ul>\n    <li>Name : Contact</li>\n    <li>Name : Contact</li>\n</ul>\n\n<h5>Participants will be briefed on the rules in detail during the event</h5>\n<button class=\"register-btn\" onclick=\"location.href='https://forms.gle/bgo35etfKzfPHAcs6';\">Register Here</button>\n";
@@ -167,7 +181,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59529" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62882" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

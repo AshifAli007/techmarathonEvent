@@ -7,6 +7,19 @@ $('.close').on("click", function(){
     console.log($('.details'))
     $('.details').css("height", "0");
 });
+
+document.addEventListener("click", function(e) {
+    const detailsdiv = document.querySelector(".details").getBoundingClientRect();
+    var check = document.querySelector('.details');
+    if(!check.contains(e.target) && detailsdiv.height != 0)
+    {
+        console.log($('.details'));
+        $('.details').css("height", "0");
+    }
+});
+
+
+
 const webgators = `
 <h1 class="eventName">Webgators</h1>
 <br/>

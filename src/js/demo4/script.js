@@ -223,7 +223,7 @@ All participants</h4>
     <li>Name : Contact</li>
     <li>Name : Contact</li>
 </ul>
-<button class="register"><a href="https://forms.gle/iu2KjF4SmBKYst6" target="blank">Registration</a></button>`
+<button class="register"><a href="https://forms.gle/8HJfH9rcdhLscSXV8" target="blank">Registration</a></button>`
 const ludo=` <h1 class="eventName">LUDO</h1>
 <br/>
     <h4>Application used for the tournament will be <strong>LUDO KING.</strong> Player must have a suitable internet connection to play the game.</h4>

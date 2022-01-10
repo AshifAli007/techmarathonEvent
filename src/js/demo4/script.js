@@ -214,13 +214,169 @@ const codebenders = `
 </ul>
 <button class="register-btn" onclick="location.href='https://forms.gle/DKK5K2yk7qTDPg118';">Register Here</button>
 `
-
+const bgmi = `
+<h1 class="eventName">PUBG/BGMI</h1>
+<br/>
+<p>
+    <h2>General Terms</h2>
+    <h3>Acceptance -</h3>
+    Each Team Member must agree to these General Rules and the applicable Competition-Specific Rules to participate
+    <br/>
+    in any Tournament. A Team Member may accept these General Rules or the applicable Competition-Specific Rules
+    <br/>
+    by registering to participate in an Official Competition in accordance with the Registration Requirements or by 
+    <br/>
+    participating in any Tournament.
+    
+    <h3>Players -</h3>
+    <b>Eligibility -</b>
+    <ul>
+        <li>
+        Player’s age: To be eligible to participate in a Tournament as a player, an individual must have reached
+        <br/>
+        13 years of age or older (i.e., the player has lived for at least 13 calendar years) as of the Tournament
+        <br/>
+        start date. If a player is 13 years of age or older but under the age of majority in his or her country of
+        <br/>
+        residence before the start of the Tournament, he or she may still compete in the Tournament if (1) he or 
+        <br/>
+        she meets the other eligibility criteria in these General Rules and the applicable Competition Specific Rules,
+        <br/>
+        and (2) a parent or legal guardian accepts these General Rules and the applicable Competition-Specific Rules 
+        <br/>
+        on behalf of the player, and consents to the player’s participation in the Tournament using a parental consent 
+        <br/>
+        form provided by the Tournament Organizer.
+        </li>
+        <li>
+        Ranking Requirement: All players on a Team’s roster must have held a ranking for BGMI of “Platinum” or above, 
+        <br/>
+        in any mode (TPP or FPP),with min level 30 at the time of registration for any Official Competition.
+        </li>
+        <li>
+        Multiple Teams: Players may not play for or contract with more than one Team at a time. If a player enters 
+        <br/>
+        such an arrangement or contract, Tournament Officials reserve the right to bar the player from playing any
+        <br/>
+        future matches until the situation has been resolved and the player is in compliance with the requirements 
+        <br/>
+        in this Section.
+        </li>
+        <li>
+        Regional Requirements: To maintain the regional identity of teams that compete in a global competition and 
+        <br/>
+        to encourage the type of regional identification that is important to fans and sponsors, each Team must
+        <br/>
+        maintain, at all times during any Official Competition.
+        </li>
+        <li>
+        Team’s Region: A Team’s home Region is identified by the Team Captain at the time of registration and may 
+        <br/>
+        not be changed at any time during an Official Competition without the prior written approval of the 
+        <br/>
+        Tournament Officials.
+        </li>
+    </ul>
+    <h3>Player’s Name</h3>
+    A player’s gamer tag or in-game nickname (“Gamer Tag”) must consist of the player’s Team name (or acronym or
+    <br/>
+    other word representative of the Team name) and player name in the format of “TEAMNAMEPLAYERNAME”. Gamer Tags
+    <br/>
+    will be selected at the time of registration and may not be changed at any time during a Season without the
+    <br/>
+    prior written approval of the Tournament Officials. A Gamer Tag may not include any word or phrase in any
+    <br/>
+    language that is offensive, toxic, or hurtful. A Gamer Tag may not include all or part of a corporate name 
+    <br/>
+    or make use of the trademarks or other intellectual property of Proxima, BGMI or any third party without the 
+    <br/>
+    prior written approval of the Tournament Organizer.
+    
+    <h2>Rules and Mode of Conduct -</h2>
+    <ul>
+        <li>Emulator / hackers are not allowed.</li>
+        <li>If you have been killed by hacker then record death replay. After seeing the
+        recording only action shall be taken.</li>
+        <li>No abusive language will be tolerated neither with the management nor with the any other team player.</li>
+        <li>Team ups are strictly prohibited. If found your team will be banned from all upcoming events and scrims.</li>
+        <li>We will give ban for not attending customs after doing registration of their squad.</li>
+        <li>Cancellation of slot will only be accepted if you cancel within 1 hour of registration.</li>
+        <li>Do not sit in others slot otherwise it will result in kick from the room.</li>
+        <li>Join on time, match will start on exact time.</li>
+        <li>Using others tag for registration will result in disqualification.</li>
+        <li>Do not share, room id & password with any other unregistered player. If we find you are sharing id & 
+        <br/>
+        pass with someone your team will get disqualified from the tournament.</li>
+        <li>As we all know, BGMI has many glitches, so we request you not to exploit any glitches. If any team is
+        <br/>
+        found exploiting any kind of bugs or glitches, they will be disqualified from that match.</li>
+    </ul>
+    <h3>Types of tourneys -</h3>
+    The events will be held in two types:
+    <ol type=1>
+        <li>
+        Battle Royal Mode – In this mode the admins or hosts will create their custom room in which all the
+        <br/>
+        interested participants required to join within the on their given slot. If someone fails on joining
+        <br/>
+        the room in time their team leader will tell the hosting teams or administrators for hold to start 
+        <br/>
+        the game. If the time is taken more then hosts have their on permission to start the game within 
+        <br/>
+        given time. The match will be held according to the point system method and judged by our admins only.
+        <br/>
+        Every kills is worth 1 point.
+        </li>
+        <li>
+        Deathmatch Mode – The match will play among 2 teams. They are going to play BO3 each other. The one who 
+        <br/>
+        get more match point, they will qualify to next round. The Semi-Finals and Finals are going through BO5.
+        </li>
+    </ol>
+    <h3>Registration</h3>
+    All players must comply with the Registration Requirements to be eligible to compete in any Tournament.
+    <br/>
+    Player’s EquipmentPlayers may participate in Events only on mobile phone hand held devices running
+    <br/>
+    the Android or the iOS operating systems. Players may not use peripheral devices of any kind without 
+    <br/>
+    approval of Tournament Officials (including adapters, controllers, Bluetooth keyboards, and mice).
+    <br/>
+    Players may not use an emulator to play on a PC or other device that is not a handheld device.
+    
+    <h2>Tournament Related Events</h2>
+    Each player agrees to participate in media interviews, streaming sessions, sponsor events, chats
+    <br/>
+    and other media events that Proxima or the Tournament Organizer organize in connection with the marketing
+    <br/>
+    and promotion of the Official Competition, Tournament and/or BGMI (“Media Events”), provided that these Media
+    <br/>
+    Events do not unduly interfere with a player’s game preparation or participation. The reasonable and pre-approved
+    <br/>
+    expenses incurred by a player in travel to and from a Media Event will be borne by the Tournament Organizer 
+    <br/>
+    or Proxima. The Tournament Organizer shall have the right to sanction or disqualify any player or Team that 
+    <br/>
+    fails to attend and participate fully in any scheduled Media Event.
+    <br/>
+    <sub>All contents are copyrighted and will be used with their owner’s
+    permission. All content in this document is accurate to the best of our
+    knowledge.</sub>
+</p>
+<h2>Contact event head for more details</h2>
+<ul>
+    <li>Name : Contact</li>
+    <li>Name : Contact</li>
+</ul>
+<button class="register-btn" onclick="location.href='https://forms.gle/KED8SaQ4Hf2Az6WV7';">Register Here</button> 
+`
 const events = {
     "webgators": webgators,
     "techWars" : techwars,
     "algoOwls" : algoowls,
     "techEscapade" : techescapade,
     "codeBenders" : codebenders,
+    "bgmi" : bgmi
 }
 
 

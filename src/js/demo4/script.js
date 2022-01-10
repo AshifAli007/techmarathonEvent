@@ -301,7 +301,7 @@ on the spot.</p>
 
 `
 const events = {
-
+    
     "bumblejumble" : bumblejumble,
     "bamboozled" : bamboozled,
     "social" : social,

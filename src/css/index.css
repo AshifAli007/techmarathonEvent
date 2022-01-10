@@ -142,18 +142,22 @@ body {
 .title {
 	font-family: moret, serif;
 	align-self: center;
-    font-size: 64px;
+   font-size: 64px;
     color: #fff;
     position: absolute;
-    position: fixed;
-    bottom: 55%;
-    left: 45%;
+  transition: all 0.5s;
+	
+		
 }
+@media only screen and (max-width: 600px) {
+	.title{
+		font-size:40px;
+	}}
 .vertical{
 	transform: rotate(-90deg);
-
+	
+	margin-top:250px;
 }
-
 .glow {
   animation: glow 1s ease-in-out infinite alternate;
 

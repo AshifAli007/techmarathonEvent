@@ -41,7 +41,7 @@ const bamboozled= `<h1 class="eventName">BAMBOOZLED</h1>
 <p>Relate to a proper noun. The task of the player is to brainstorm, may use google or any other search engine and workout the answer.</p>
     <h4>Example of Question :</h4>
 
-        <img src="" alt="">
+        <img src="img/demo4/bird.png" alt="bird">
         <ul style="list-style-type: none; ">
         <li>After 5 incorrect tries : hint 1 : I can't tweet</li>
 <li>After 10 incorrect tries: hint 2</li>

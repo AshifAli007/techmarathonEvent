@@ -127,102 +127,35 @@ node.</li>
 `
 const valorant=` <h1 class="eventName">VALORANT</h1>
 <br/>
-<h3>Main Rule –</h3>
+
+
+<p>SANGANIKA - The Computer Science Society of Deen Dayal Upadhyaya College, University of Delhi along with TECHMARATHON - The Departmental Fest presents VALORANT Tournament with exciting prize pool of Rs.4000.</p>
+
+ <p>Participant are requested to join the official discord server of our college Non Tech VALORANT Event -</p> <a target="blank" href="https://discord.gg/pCBAk3T8JE"><button class ="register">Click here</button> </a>
+
+<h4>Last Day for form submission - 31st JAN 2022 </h4>
+
+<h3>IMPORTANT INFORMATION:-</h3>
+
 <p>The league administration and hosts have the right to decide outside or even against the rulebook in special cases to guarantee fair play.</p>
-<h3>Code of Conduct-</h3>
-<p>Every participant must behave with respect towards the representatives of the DDUCSL, press, viewers, partners, and other players. The participants are requested to represent esports, the DDUCSL, and their Sponsors honourably. This applies to behaviour in-game and also in chats, messengers, comments and other media. We expect players to conduct themselves according to the following values:
-    <ul><li>Compassion: treat others as you would be treated.</li>
-    <li>Integrity: be honest, be committed, play fair.</li>
-    <li>Respect: show respect all other humans, including teammates, competitors, and event staff.</li>
-    <li>Courage: be courageous in competition and in standing up for what is right</li></ul>
-    Participants must not engage in harassment or hate speech in any form. This includes, but is not limited to:
-    <ul><li>Hate speech, offensive behaviour, or verbal abuse related to sex, gender identity and expression, sexual orientation, race, ethnicity, disability, physical appearance, body size, age, or religion.</li>
-    <li>Stalking or intimidation (physically or online).</li>
-    <li>Spamming, raiding, hijacking, or inciting disruption of streams or social media.</li>
-    <li>Posting or threatening to post other people’s personally identifying information (“doxing”).</li>
-    <li>Unwelcome sexual attention. This includes unwelcome sexualized comments, jokes, and sexual advances.</li>
-    <li>Advocating for, or encouraging, any of the above behaviour.</li></ul></p>
-</p>
-<h3>Insults and Offensive Behaviour-</h3>
-<p>All insults that happen during an DDUCSL-Match or on the DDUCSL platform, may be punished. This includes but is not limited to in-game chat of the corresponding game, guestbooks, forums, Match- or News-Comments, DDUCSL Messages, Match-
-Chat, game IDs. Insults that happen on external messengers are not considered.</p>
-<p>Penalties are no longer limited to Penalty Points and barrages, but may also contain the following depending on the incident, location and frequency of the insult:</p>
-<ul><li>Penalty Points & barrages are given for incidents within DDUCSL-Matches</li>
-<li>Insults or inappropriate behaviour within Comments or other options for contacting a player, will result in a Forum- & Comment ban</li></ul>
 
-<p>Severe incidents including, but not limited to the following points, may be punished in other ways:</p>
-<ul>
-    <li>Extremist statements</li>
-    <li>Threat of violence</li>
-    <li>Sexual harassment</li>
-    <li>Stalking</li>
-    <li>severe insults</li>
-    <li>pornographic linking</li>
-</ul>
-<p>The right to appeal is only with the injured.</p>
-<h4>Spamming-</h4>
-<p>The excessive posting of futile, annoying or offensive contributions within the DDUCSL is considered as spamming. Spamming on the website (forums, match comments, player comments, support- and protest pages, etc) is penalized as follows:</p>
-<ul>
-    <li>Written warning for the first offence</li>
-    <li>1 penalty point + 1 match comment ban for the second spamming incident</li>
-    <li>2 penalty points + 2 match comment ban for the third spamming incident.</li>
-    <li>3 penalty points + 3 match comment ban for the fourth and any further spamming incidents</li>
-    
-</ul>
-<p>The decisive factor therefore is the number of active penalties for spamming.</p>
-<h4>Public Behaviour-
-All participants</h4>
-<p>All participants shall abstain, always, from poor, undesirable, or negative behaviour towards anybody involved with the tournament in any way.</p>
-<p>All participants shall abstain, always, from any action or inaction that brings anybody involved with the tournament in any way into public disrepute, contempt, scandal or ridicule or reduces the public relations or commercial value of any involved party. This includes derogatory comments aimed at DDUCSL, its partners or products in interviews, statements and/or social media channels.</p>
-<h4>Matches, Competition, Meetings-</h4>
-<p>The matches are considered and will be played according to the total no. of team’s participation. If more no. of teams are there than the prelims round will be considered and if the less no. of the teams then it will be going through qualifiers round.</p>
-<p>In all competitions there should be a fair playing field for all players.</p>
-<p>Every encounter, whether a ladder match or other competition must be played according to the rules until it is complete and the result on the DDUCSL discord server entered, or at events the result sheet is completed. Any encounter that did not take place, should be deleted. Matches will be opened only by admins & hosts to delete exceptions. Matches that did not take place will be considered fake matches and will be punished.</p>
-<p>It is not allowed for participants to bet on matches in their own competition. Betting against yourself (in team leagues: against your own team) will get you (in team leagues: your team) disqualified and the betting player(s) banned.</p>
-<p>Players and teams that are already qualified for or participating in an event or the later stages of a tournament are not allowed to participate in any of its ongoing or upcoming qualifiers. In the case of a player or team breaching this rule, they will be disqualified from the current qualifier and may face further punishment, up to and including disqualification from the event.</p>
-<h4>Game Coverage-</h4>
-<p>The DDUCSL all Valorant tournaments will be shown or streamed either on their discord server or their YouTube channel.</p>
-<h4>Match Fixing – </h4>
-<p>If we found any of the player or the team is going to match fixing, they will be punished accordingly. Engaging in any action that improperly influences the outcome of a game or match by any means.</p>
-<h3>Accounts –</h3>
-<h4>Multiaccounts-</h4>
-<p>Each player in the DDUCSL must only have one account! If a player cannot access his account and then creates a new one, then he/she must write a support ticket explaining in detail the reason for not being able to access the account. They must have send their only one account which they gonna play their tourney</p>
-<h3>Nicknames, Team names and URL Aliases-</h3>
-<p>We reserve the right to edit Nicknames and/or URL aliases if they fail to comply with the following requirements.</p>
-<p>Nicknames/aliases are forbidden if they:
-    <ul><li>are protected by third-party rights and the user has no written permission </li>
-    
-    <li>resemble or if they are identical to a brand or trademark, no matter whether it has been registered or not</li>
-    <li>resemble or if they are identical to a real person other than themselves</li>
-    <li>use names of DDUCSL Gaming products</li>
-    <li>resemble or if they are identical to the names of DDUCSL Gaming employees</li>
-    <li>are nonsense</li>
-    </ul>
+<h3FORMAT:-</h3>
 
-</p>
-<p>In addition to the above, any nicknames/team names/aliases that are purely commercial (e.g., product names), defamatory, pejorative, offensive, vulgar, obscene, anti-Semitic, inciting hatred, or offending against good manners are forbidden. Using alternative spelling, gibberish, or wrong spelling to avoid the requirements mentioned above is illegal. We reserve the right to extend, change, exchange or delete these rules if necessary</p>
-<h3>Teams –</h3>
-<p>A team's name does not have to be unique, but the DDUCSL reserves the right to refuse clans with the same or similar names as a well-known clan (e.g., If you named your team to any nationality or any company or any relevant, that would not be allowed).</p>
-<p>Names which are restricted by law will not be accepted and will be deleted and punished with penalty points if found. Also, names which go against all forms of etiquette and good manners will not be accepted.</p>
-<p>If a team deletes its account because of a certain amount of active penalty points and registers a new account, the penalty points will be transferred to the new account if the team re-joins the same ladder. Furthermore 1 additional penalty will be added for the attempted deception.</p>
-<p>The logo must represent the team and have some reference to the team's name or to the team's short handle. Copyrighted logos, or logos which go against etiquette and good manners will not be accepted.</p>
-<p>The teams name must be written in front of all their player’s name like as – (Team or Clan Name) (Player’s Name)</p>
-<h3>Changing Team Names-</h3>
+<ul><li> All agents are free to play(excluded. Chamber &amp; Neon) </li><li> Single Elimination bracket(under the required   condition)  </li><li> All matches (excl. Semi and Grand Finals) are BO3. </li> <li>- Semi Finals and Grand Final are BO5.</li></ul>
 
-<p>A team can change its name at any time. This also applies when a team is restructured.</p>
-<p>Changing a team's name to fool other teams is forbidden. Extremely long names, or consistent changing of team names is prohibited and can be punished with penalty points.</p>
-<h3>Players in Team-</h3>
-<p>A player may only play for one team in a tournament or league. Participants in one clan or team may not also play in other team or clan underneath it.</p>
-<p>In tournaments or leagues that require Premium or Trusted then only players with this status are eligible to play. In general players that are marked inactive or honorary on a team page are not eligible to play.</p>
-<p>If a homepage is required for a tournament or league, then every player that is on the team account must also be on the homepage.</p>
-<h3>Sponsors/Partnerships-</h3>
-<p>The DDUCSL administration reserves the right to prohibit or remove teams with sponsors or partners that are solely or widely known for pornographic, drug use or other adult/mature themes and products from partaking in DDUCSL Play events at any time.</p>
-<h2>All contents are copyrighted and will be used with their owner’s permission. All content in this document is accurate to the best of our knowledge.</h2>
-<h2>Contact event head for more details</h2>
-<ul>
-    <li>Name : Contact</li>
-    <li>Name : Contact</li>
-</ul>
+<h3>REGISTRATION FORMAT:-</h3>
+
+<ul><li>Before registering for the event read these points so you will not face any difficulties further.</li><li> -A team can have no more than 6 players. </li><li>All games will take place on a game server situated in Mumbai servers only.</li><li> Coach (if your team have) can enter the lobby and sit in the coach slot of their respective team. </li><li> No changes may be made to your team information after registration closes.</li></ul>
+
+<p>Registration for DDUC TM VALORANT TOURNAMENT for registration of entire 6 teams players will be Rs.100 and if you can't make your members to register, you can still register by paying Rs.20 per head. You can pay through via Paytm(will give you the link at the end of this form).</p>
+
+<h3>PRIZE POOL:-</h3>
+
+<p>The amount will spread among the teams as- Winner - Rs.2500 Runner up - Rs.1000 MVP of entire tournament - Rs.500</p>
+
+<p>After filling the form, we will give you the WhatsApp group link. only the leader will have to join the WhatsApp group only. Valo I'D must be like this - xyzabc </p>
+
+<ul><li>For any queries contact-</li><li> Praveen - 7982774791</li><li> Ritik - 6201969853</li></ul>
 <button class="register"><a href="https://forms.gle/8HJfH9rcdhLscSXV8" target="blank">Registration</a></button>`
 const ludo=` <h1 class="eventName">LUDO</h1>
 <br/>

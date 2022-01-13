@@ -29,9 +29,9 @@ taken.</h3>
 <a href="https://forms.gle/AvMHUby9a8QQ9GHs5" target="blank"><button class="register">Registration</button></a>
 
 <h2>Contact event head for more details</h2>
-<ul>
-    <li>Name : Contact</li>
-    <li>Name : Contact</li>
+<ul style="list-style-type: none; ">
+    <li>SIMRAN KUMARI : 7678690111</li>
+ 
 </ul>`
 const bamboozled= `<h1 class="eventName">BAMBOOZLED</h1>
 <br/>
@@ -66,9 +66,8 @@ Correct</h3>
 Since the player/team who achieved the score first would already be up in the leader board, therefore in all cases the top three players/teams in the leaderboard at the end of the day will be the final winners.</p>
 <a href="https://forms.gle/YtaTzHbG7cMX4Lpu5" target="blank"><button class="register">Registration</button></a>
 <h2>Contact event head for more details</h2>
-<ul>
-    <li>Name : Contact</li>
-    <li>Name : Contact</li>
+<ul style="list-style-type: none; ">
+    <li>VARCHASVA :9286011620</li>
 </ul>`
 const pes=`<h1 class="eventName">PES</h1>
 </br>
@@ -94,9 +93,8 @@ SUBSITUTES.(IMPORTANT)</li>
 </ul>
 <button class="register"><a href="https://forms.gle/TAkTMNcHg5qgbS497" target="blank">Register here</a></button>
 <h2>Contact event head for more details</h2>
-<ul>
-    <li>Name : Contact</li>
-    <li>Name : Contact</li>
+<ul style="list-style-type: none; ">
+    <li>ANSH :7303638798</li>
 </ul>
 `
 const social=`<h1 class="eventName">SOCIAL HUNT</h1>
@@ -118,11 +116,10 @@ the next Instagram account which you must figure out from the question/riddle in
 node.</li>
 <li>Further details about the competition will be disclosed once you register.</li>
 
-<button class="register"><a href="https://forms.gle/wxz9mkRg6b5Mxfsr5" target="blank">Registration</a></button>
+<button class="register"><a href="https://forms.gle/HeaxghakzfeT3PpXA" target="blank">Registration</a></button>
 <h2>Contact event head for more details</h2>
-<ul>
-    <li>Name : Contact</li>
-    <li>Name : Contact</li>
+<ul style="list-style-type: none; ">
+    <li>RAHUL JANGRA :9518015621</li>
 </ul>
 `
 const valorant=` <h1 class="eventName">VALORANT</h1>
@@ -141,7 +138,7 @@ const valorant=` <h1 class="eventName">VALORANT</h1>
 
 <h3FORMAT:-</h3>
 
-<ul><li> All agents are free to play(excluded. Chamber &amp; Neon) </li><li> Single Elimination bracket(under the required   condition)  </li><li> All matches (excl. Semi and Grand Finals) are BO3. </li> <li>- Semi Finals and Grand Final are BO5.</li></ul>
+<ul><li> All agents are free to play(excluded. Chamber &amp; Neon) </li><li> Single Elimination bracket(under the required   condition)  </li><li> All matches (excl. Semi and Grand Finals) are BO3. </li> <li>Semi Finals and Grand Final are BO5.</li></ul>
 
 <h3>REGISTRATION FORMAT:-</h3>
 
@@ -155,8 +152,8 @@ const valorant=` <h1 class="eventName">VALORANT</h1>
 
 <p>After filling the form, we will give you the WhatsApp group link. only the leader will have to join the WhatsApp group only. Valo I'D must be like this - xyzabc </p>
 
-<ul><li>For any queries contact-</li><li> Praveen - 7982774791</li><li> Ritik - 6201969853</li></ul>
-<button class="register"><a href="https://forms.gle/8HJfH9rcdhLscSXV8" target="blank">Registration</a></button>`
+<ul style="list-style-type: none; "><li>For any queries contact-</li><li> Praveen - 7982774791</li><li> Ritik - 6201969853</li></ul>
+<button class="register"><a href="https://forms.gle/Wsmw4pCrd1qT23Ce9" target="blank">Registration</a></button>`
 const ludo=` <h1 class="eventName">LUDO</h1>
 <br/>
     <h4>Application used for the tournament will be <strong>LUDO KING.</strong> Player must have a suitable internet connection to play the game.</h4>
@@ -185,9 +182,8 @@ Opponent the win.</li>
     <br>
 <a href="https://forms.gle/rq1UXATNJHtfVzcFA" target="blank"><button class="register">Registration</button></a>
 <h2>Contact event head for more details</h2>
-<ul>
-    <li>Name : Contact</li>
-    <li>Name : Contact</li>
+<ul style="list-style-type: none; ">
+    <li>Mahima : 9560406213</li>
 </ul>`
 const fandom=`<h1 class="eventName">TV FANDOM</h1>
 <h3>Description</h3>
@@ -221,18 +217,27 @@ on the spot.</p>
 <a href="https://forms.gle/4tg1uf4671idNYrJ8" target="blank"><button class="register">Registration</button></a>
 
 <h2>Contact event head for more details</h2>
-<ul>
+<ul style="list-style-type: none; ">
     <li>Prakriti: 84235 53224</li>
     <li>Himani Vashisht: 78272 74832</li>
     <li>Himank : 8826610870</li>
 </ul>
-
-
-
-
-
-
 `
+const bgmi=`<h1 class="eventName">BGMI</h1>
+<h2>There will be 2 tournaments under this event. battle Royale and Multiplayer(TDM)</h2>.
+
+<ul><li>For Battle Royale there will be 3 Room Matches and your positions will be decided by the points system of Official BGMI Tournaments.</li>
+
+<li>For TDM there will be 3 matches between 2 teams and the team who win 2 out of 3 matches will be considered Winner. Later this will be carried out further till finals. And at last 5 matches will be played between the finalists and the team who win 3 matches out of 5 will be considered the final winner.</li>
+
+<p>A player’s gamer tag or in-game nickname (“Gamer Tag”) must consist of the player’s Team name (or acronym or other word representative of the Team name) and player name in the format of “TEAMNAMEPLAYERNAME”. Gamer Tags will be selected at the time of registration and may not be changed at any time during a Season without the prior written approval of the Tournament Officials. A Gamer Tag may not include any word or phrase in any language that is offensive, toxic, or hurtful. A Gamer Tag may not include all or part of a corporate name or make use of the trademarks or other intellectual property of Proxima, BGMI or any third party without the prior written approval of the Tournament Organizer.</p>
+<a href="https://forms.gle/aHkDhaqWC4ZN2dFM8" target="blank"><button class="register">Registration</button></a>
+
+<h2>Contact event head for more details</h2>
+<ul style="list-style-type: none; ">
+    <li>SUSHANT KUMAR : 8447990060</li>
+ 
+</ul>`
 const events = {
     
     "bumblejumble" : bumblejumble,
@@ -241,8 +246,8 @@ const events = {
     "pes" :pes,
     "valorant" :valorant,
     "ludo": ludo,
-    "fandom" :fandom
-
+    "fandom" :fandom,
+    "bgmi":bgmi
 }
 
 

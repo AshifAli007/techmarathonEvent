@@ -136,9 +136,9 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Warnes&display=swap');
 
-:root {
+/* :root {
     background-color: #141414;
-}
+} */
 .title {
 	font-family: moret, serif;
 	align-self: center;
@@ -176,7 +176,7 @@ body {
 	flex-flow: column;
     position: fixed;
     bottom: 0;
-    height: 75vh;
+    /* height: 75vh; */
     width: 90vw;
     z-index: 5;
     border-radius: 5% 5% 0 0;

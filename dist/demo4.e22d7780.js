@@ -9644,6 +9644,8 @@ lscroll.on('scroll', function (obj) {
       var rotationVal = progress > 0.6 ? (0, _utils.clamp)((0, _utils.map)(progress, 0.6, 1, 0, rotationsArr[idx]), Math.min(0, rotationsArr[idx]), Math.max(0, rotationsArr[idx])) : 0;
       var translationVal = progress > 0.6 ? (0, _utils.clamp)((0, _utils.map)(progress, 0.6, 1, 0, translationArr[idx]), Math.min(0, translationArr[idx]), Math.max(0, translationArr[idx])) : 0; //obj.currentElements[key].el.style.transform = `scale(${scaleVal})`
 
+      obj.currentElements[key].el.style.webkitTransform = "translateY(".concat(translationVal, "%) rotate(").concat(rotationVal, "deg)");
+      obj.currentElements[key].el.style.msTransform = "translateY(".concat(translationVal, "%) rotate(").concat(rotationVal, "deg)");
       obj.currentElements[key].el.style.transform = "translateY(".concat(translationVal, "%) rotate(").concat(rotationVal, "deg)");
     }
   }

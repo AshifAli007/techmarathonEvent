@@ -22,6 +22,8 @@ lscroll.on('scroll', (obj) => {
             const rotationVal = progress > 0.6 ? clamp(map(progress,0.6,1,0,rotationsArr[idx]), Math.min(0,rotationsArr[idx]), Math.max(0,rotationsArr[idx])) : 0;
             const translationVal = progress > 0.6 ? clamp(map(progress,0.6,1,0,translationArr[idx]), Math.min(0,translationArr[idx]), Math.max(0,translationArr[idx])) : 0;
             //obj.currentElements[key].el.style.transform = `scale(${scaleVal})`
+            obj.currentElements[key].el.style.webkitTransform = `translateY(${translationVal}%) rotate(${rotationVal}deg)`
+            obj.currentElements[key].el.style.msTransform = `translateY(${translationVal}%) rotate(${rotationVal}deg)`
             obj.currentElements[key].el.style.transform = `translateY(${translationVal}%) rotate(${rotationVal}deg)`
         }
     }
